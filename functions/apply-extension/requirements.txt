@@ -1,0 +1,2 @@
+google-cloud-pubsub==0.39.1
+dmsapi==0.2.0
