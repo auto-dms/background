@@ -1,0 +1,2 @@
+google-cloud-pubsub==0.41.0
+google-cloud-firestore==1.2.0
