@@ -28,7 +28,7 @@ module "publish_apply_extension_jobs" {
   project_id = "auto-dms"
 
   job_name                  = "publish_apply_extension_jobs"
-  job_schedule              = "30 17 1 * *"
+  job_schedule              = "30 17 * * *"
   function_entry_point      = "publish_apply_extension_jobs"
   function_source_directory = "./functions/publish-apply-extension-jobs"
   function_runtime          = "python37"
